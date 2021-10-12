@@ -47,9 +47,6 @@ GEM
     bootsnap (1.4.1)
       msgpack (~> 1.0)
     builder (3.2.3)
-    bullet (6.0.2)
-      activesupport (>= 3.0.0)
-      uniform_notifier (~> 1.11)
     byebug (11.0.0)
     coffee-rails (4.2.2)
       coffee-script (>= 2.2.0)
@@ -94,7 +91,8 @@ GEM
       mini_portile2 (~> 2.4.0)
     pagy (2.0.0)
     pg (1.1.4)
-    puma (3.12.0)
+    puma (4.3.9)
+      nio4r (~> 2.0)
     rack (2.0.6)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -177,7 +175,6 @@ GEM
       thread_safe (~> 0.1)
     uglifier (4.1.20)
       execjs (>= 0.3.0, < 3)
-    uniform_notifier (1.12.1)
     web-console (3.7.0)
       actionview (>= 5.0)
       activemodel (>= 5.0)
@@ -192,14 +189,13 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap (>= 1.1.0)
-  bullet
   byebug
   coffee-rails (~> 4.2)
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   pagy
   pg (>= 0.18, < 2.0)
-  puma (~> 3.11)
+  puma (~> 4.3)
   rails (~> 5.2.2)
   rspec-rails (~> 3.8)
   sass-rails (~> 5.0)
